@@ -50,7 +50,7 @@ Only the Jump Box Provisioner machine can accept connections from the Internet. 
 
 Machines within the network can only be accessed by SSH.
 - Access to the Elk stack machine is permitted through the Jump Box with a source IP address of 72.197.208.80
-- 
+
 A summary of the access policies in place can be found in the table below.
 
 Name | Publicly Accessible | Allowed IP Addresses
