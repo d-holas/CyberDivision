@@ -4,7 +4,7 @@ A collection of works and projects dedicated to cyber security
 
 The files in this repository were used to configure the network depicted below.
 
-~/Downloads/README/Images/’Virtual_Network.drawio’
+~/CyberDivision/Diagrams/Virtual_Network1.png
 
 
 
@@ -29,28 +29,13 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 
 The configuration details of each machine may be found below.
 
-Name		               Function                         Ip Address                     Operating System
-Jump Box
-Gateway
-104.42.40.196
-Linux(ubuntu 18.04)
-Elk-VM
-Network Security Monitoring
-20.69.165.230
-Linux(ubuntu 20.04)
-Web1
-Web Server(DVWA)
-168.62.4.11
-Linux(ubuntu 18.04)
-Web2
-Web Server(DVWA)
-168.62.4.11
-Linux(ubuntu 18.04)
-Web2
-Web Server(DVWA)
-168.62.4.11
-Linux(ubuntu 18.04)
-
+Name | Function | Ip Address | Operating System
+--- | --- | ---
+Jump Box | Gateway | 104.42.40.196 | Linux(ubuntu 18.04) 
+Elk-VM | Network Security Monitoring | 20.69.165.230 | Linux(ubuntu 20.04)
+Web1 | Web Server(DVWA) | 168.62.4.11 | Linux(ubuntu 18.04)
+Web2 | Web Server(DVWA) | 168.62.4.11 | Linux(ubuntu 18.04)
+Web2 | Web Server(DVWA) | 168.62.4.11 | Linux(ubuntu 18.04)
 
 
 ### Access Policies
@@ -65,12 +50,7 @@ Only the Jump Box Provisioner machine can accept connections from the Internet. 
 
 Machines within the network can only be accessed by SSH.
 - Access to the Elk stack machine is permitted through the Jump Box with a source IP address of 72.197.208.80
-
-
-
-
-
-
+- 
 A summary of the access policies in place can be found in the table below.
 
 Name | Publicly Accessible | Allowed IP Addresses
@@ -96,7 +76,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-~/Downloads/README/Images/docker_ps.png
+~/CyberDivision/Diagrams/docker_ps.png
 
 
 
