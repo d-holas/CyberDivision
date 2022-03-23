@@ -74,22 +74,11 @@ Machines within the network can only be accessed by SSH.
 A summary of the access policies in place can be found in the table below.
 
 Name                                          Publicly Accessible                     Allowed IP Addresses
-Jump Box
-Yes
-10.1.0.4  10.0.0.5  10.0.0.6 10.0.0.9
-Elk-VM
-No
-10.0.0.4  72.197.208.80
-Web1
-No
-10.0.0.4  10.0.0.6  10.0.0.9
-Web2
-No
-10.0.0.4  10.0.0.5  10.0.0.9
-Web3
-No
-10.0.0.4  10.0.0.5  10.0.0.6
-
+Jump Box                                      Yes                                     10.1.0.4  10.0.0.5  10.0.0.6 10.0.0.9
+Elk-VM                                        No                                      10.0.0.4  72.197.208.80
+Web1                                          No                                      10.0.0.4  10.0.0.6  10.0.0.9
+Web2                                          No                                      10.0.0.4  10.0.0.5  10.0.0.9
+Web3                                          No                                      10.0.0.4  10.0.0.5  10.0.0.6
 
 
 ### Elk Configuration
