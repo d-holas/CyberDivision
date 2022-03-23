@@ -30,7 +30,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 
 Name | Function | Ip Address | Operating System
---- | --- | ---
+--- | --- | --- | ---
 Jump Box | Gateway | 104.42.40.196 | Linux(ubuntu 18.04) 
 Elk-VM | Network Security Monitoring | 20.69.165.230 | Linux(ubuntu 20.04)
 Web1 | Web Server(DVWA) | 168.62.4.11 | Linux(ubuntu 18.04)
@@ -59,7 +59,7 @@ Jump Box | Yes |10.1.0.4  10.0.0.5  10.0.0.6 10.0.0.9
 Elk-VM | No | 10.0.0.4  72.197.208.80
 Web1 | No | 10.0.0.4  10.0.0.6  10.0.0.9
 Web2 | No | 10.0.0.4  10.0.0.5  10.0.0.9
-Web3 | No | 10.0.0.4  10.0.0.5  10.0.0. 6
+Web3 | No | 10.0.0.4  10.0.0.5  10.0.0.6
 
 
 ### Elk Configuration
